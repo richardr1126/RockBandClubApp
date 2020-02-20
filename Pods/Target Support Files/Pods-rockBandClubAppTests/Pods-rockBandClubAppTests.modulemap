@@ -1,0 +1,6 @@
+framework module Pods_rockBandClubAppTests {
+  umbrella header "Pods-rockBandClubAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

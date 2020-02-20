@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3928E08F23DF81AC009ECE7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3928E08E23DF81AC009ECE7B /* AppDelegate.swift */; };
 		3928E09123DF81AC009ECE7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3928E09023DF81AC009ECE7B /* SceneDelegate.swift */; };
-		3928E09323DF81AC009ECE7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3928E09223DF81AC009ECE7B /* ViewController.swift */; };
 		3928E09623DF81AC009ECE7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3928E09423DF81AC009ECE7B /* Main.storyboard */; };
 		3928E09823DF81AF009ECE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3928E09723DF81AF009ECE7B /* Assets.xcassets */; };
 		3928E09B23DF81AF009ECE7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3928E09923DF81AF009ECE7B /* LaunchScreen.storyboard */; };
 		3928E0A623DF81AF009ECE7B /* rockBandClubAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3928E0A523DF81AF009ECE7B /* rockBandClubAppTests.swift */; };
 		3928E0B123DF81AF009ECE7B /* rockBandClubAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3928E0B023DF81AF009ECE7B /* rockBandClubAppUITests.swift */; };
+		3936DFDC23F44FCF0058E8CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3936DFDB23F44FCF0058E8CE /* GoogleService-Info.plist */; };
+		3936DFDE23F466010058E8CE /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936DFDD23F466010058E8CE /* AdminViewController.swift */; };
+		398CDA8523E8740700D56CA1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CDA8423E8740700D56CA1 /* LoginViewController.swift */; };
+		39F892FE23EA013C00F01B2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F892FD23EA013C00F01B2F /* HomeViewController.swift */; };
+		8B49488AFB320410977BE1BF /* Pods_rockBandClubApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0014F76AB031CF478191EFB7 /* Pods_rockBandClubApp.framework */; };
+		8CE46A850F29CAC46DA06D3D /* Pods_rockBandClubAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A75EAF71D6CA75B22A9AA2 /* Pods_rockBandClubAppTests.framework */; };
+		ADAC1AAF8E671DAEEC9AB812 /* Pods_rockBandClubApp_rockBandClubAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F993DA1E8A2E627CC379437 /* Pods_rockBandClubApp_rockBandClubAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0014F76AB031CF478191EFB7 /* Pods_rockBandClubApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rockBandClubApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FE8809B701553407DAE436D /* Pods-rockBandClubApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rockBandClubApp.debug.xcconfig"; path = "Target Support Files/Pods-rockBandClubApp/Pods-rockBandClubApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3928E08B23DF81AC009ECE7B /* rockBandClubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rockBandClubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3928E08E23DF81AC009ECE7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3928E09023DF81AC009ECE7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3928E09223DF81AC009ECE7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3928E09523DF81AC009ECE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3928E09723DF81AF009ECE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3928E09A23DF81AF009ECE7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,17 @@
 		3928E0AC23DF81AF009ECE7B /* rockBandClubAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rockBandClubAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3928E0B023DF81AF009ECE7B /* rockBandClubAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockBandClubAppUITests.swift; sourceTree = "<group>"; };
 		3928E0B223DF81AF009ECE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3936DFDB23F44FCF0058E8CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3936DFDD23F466010058E8CE /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		398CDA8423E8740700D56CA1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		39F892FD23EA013C00F01B2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F993DA1E8A2E627CC379437 /* Pods_rockBandClubApp_rockBandClubAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rockBandClubApp_rockBandClubAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845455E5A0805E8F25805583 /* Pods-rockBandClubAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rockBandClubAppTests.release.xcconfig"; path = "Target Support Files/Pods-rockBandClubAppTests/Pods-rockBandClubAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		85F836A9547E00FCDB55960A /* Pods-rockBandClubApp-rockBandClubAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rockBandClubApp-rockBandClubAppUITests.release.xcconfig"; path = "Target Support Files/Pods-rockBandClubApp-rockBandClubAppUITests/Pods-rockBandClubApp-rockBandClubAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B50100EC2D400791638EB1B5 /* Pods-rockBandClubAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rockBandClubAppTests.debug.xcconfig"; path = "Target Support Files/Pods-rockBandClubAppTests/Pods-rockBandClubAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B57F43BDCB5866BB0014D32A /* Pods-rockBandClubApp-rockBandClubAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rockBandClubApp-rockBandClubAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-rockBandClubApp-rockBandClubAppUITests/Pods-rockBandClubApp-rockBandClubAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6A75EAF71D6CA75B22A9AA2 /* Pods_rockBandClubAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rockBandClubAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F4013A6968FA29D3B14365 /* Pods-rockBandClubApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rockBandClubApp.release.xcconfig"; path = "Target Support Files/Pods-rockBandClubApp/Pods-rockBandClubApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B49488AFB320410977BE1BF /* Pods_rockBandClubApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE46A850F29CAC46DA06D3D /* Pods_rockBandClubAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADAC1AAF8E671DAEEC9AB812 /* Pods_rockBandClubApp_rockBandClubAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				3928E0A423DF81AF009ECE7B /* rockBandClubAppTests */,
 				3928E0AF23DF81AF009ECE7B /* rockBandClubAppUITests */,
 				3928E08C23DF81AC009ECE7B /* Products */,
+				BBD1851A92D2572AB3358BBC /* Pods */,
+				A8E7536B8F6BD637F14139E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +122,15 @@
 		3928E08D23DF81AC009ECE7B /* rockBandClubApp */ = {
 			isa = PBXGroup;
 			children = (
+				399B62D723EC6E3600789EB1 /* Extras */,
+				39F892FF23EB567900F01B2F /* Controllers */,
 				3928E08E23DF81AC009ECE7B /* AppDelegate.swift */,
 				3928E09023DF81AC009ECE7B /* SceneDelegate.swift */,
-				3928E09223DF81AC009ECE7B /* ViewController.swift */,
 				3928E09423DF81AC009ECE7B /* Main.storyboard */,
 				3928E09723DF81AF009ECE7B /* Assets.xcassets */,
 				3928E09923DF81AF009ECE7B /* LaunchScreen.storyboard */,
 				3928E09C23DF81AF009ECE7B /* Info.plist */,
+				3936DFDB23F44FCF0058E8CE /* GoogleService-Info.plist */,
 			);
 			path = rockBandClubApp;
 			sourceTree = "<group>";
@@ -128,6 +153,46 @@
 			path = rockBandClubAppUITests;
 			sourceTree = "<group>";
 		};
+		399B62D723EC6E3600789EB1 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		39F892FF23EB567900F01B2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39F892FD23EA013C00F01B2F /* HomeViewController.swift */,
+				398CDA8423E8740700D56CA1 /* LoginViewController.swift */,
+				3936DFDD23F466010058E8CE /* AdminViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A8E7536B8F6BD637F14139E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0014F76AB031CF478191EFB7 /* Pods_rockBandClubApp.framework */,
+				5F993DA1E8A2E627CC379437 /* Pods_rockBandClubApp_rockBandClubAppUITests.framework */,
+				D6A75EAF71D6CA75B22A9AA2 /* Pods_rockBandClubAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBD1851A92D2572AB3358BBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FE8809B701553407DAE436D /* Pods-rockBandClubApp.debug.xcconfig */,
+				F9F4013A6968FA29D3B14365 /* Pods-rockBandClubApp.release.xcconfig */,
+				B57F43BDCB5866BB0014D32A /* Pods-rockBandClubApp-rockBandClubAppUITests.debug.xcconfig */,
+				85F836A9547E00FCDB55960A /* Pods-rockBandClubApp-rockBandClubAppUITests.release.xcconfig */,
+				B50100EC2D400791638EB1B5 /* Pods-rockBandClubAppTests.debug.xcconfig */,
+				845455E5A0805E8F25805583 /* Pods-rockBandClubAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3928E0B523DF81AF009ECE7B /* Build configuration list for PBXNativeTarget "rockBandClubApp" */;
 			buildPhases = (
+				DBD6AF0CB895644939CD7DB0 /* [CP] Check Pods Manifest.lock */,
 				3928E08723DF81AC009ECE7B /* Sources */,
 				3928E08823DF81AC009ECE7B /* Frameworks */,
 				3928E08923DF81AC009ECE7B /* Resources */,
+				A6864AF548399080D0FDFBE3 /* [CP] Embed Pods Frameworks */,
+				283D9A50797D7D98EB0D2DBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3928E0B823DF81AF009ECE7B /* Build configuration list for PBXNativeTarget "rockBandClubAppTests" */;
 			buildPhases = (
+				AD8A34AE89FBEB2A02476577 /* [CP] Check Pods Manifest.lock */,
 				3928E09D23DF81AF009ECE7B /* Sources */,
 				3928E09E23DF81AF009ECE7B /* Frameworks */,
 				3928E09F23DF81AF009ECE7B /* Resources */,
@@ -170,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3928E0BB23DF81AF009ECE7B /* Build configuration list for PBXNativeTarget "rockBandClubAppUITests" */;
 			buildPhases = (
+				FC24CF82BCA6263CA96E66E0 /* [CP] Check Pods Manifest.lock */,
 				3928E0A823DF81AF009ECE7B /* Sources */,
 				3928E0A923DF81AF009ECE7B /* Frameworks */,
 				3928E0AA23DF81AF009ECE7B /* Resources */,
+				7E089C8289CAD791A95AABAB /* [CP] Embed Pods Frameworks */,
+				0C3B896B5B8E6A309C820BCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3928E09B23DF81AF009ECE7B /* LaunchScreen.storyboard in Resources */,
+				3936DFDC23F44FCF0058E8CE /* GoogleService-Info.plist in Resources */,
 				3928E09823DF81AF009ECE7B /* Assets.xcassets in Resources */,
 				3928E09623DF81AC009ECE7B /* Main.storyboard in Resources */,
 			);
@@ -254,14 +327,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C3B896B5B8E6A309C820BCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp-rockBandClubAppUITests/Pods-rockBandClubApp-rockBandClubAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp-rockBandClubAppUITests/Pods-rockBandClubApp-rockBandClubAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp-rockBandClubAppUITests/Pods-rockBandClubApp-rockBandClubAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		283D9A50797D7D98EB0D2DBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp/Pods-rockBandClubApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp/Pods-rockBandClubApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp/Pods-rockBandClubApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E089C8289CAD791A95AABAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp-rockBandClubAppUITests/Pods-rockBandClubApp-rockBandClubAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp-rockBandClubAppUITests/Pods-rockBandClubApp-rockBandClubAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp-rockBandClubAppUITests/Pods-rockBandClubApp-rockBandClubAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6864AF548399080D0FDFBE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp/Pods-rockBandClubApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp/Pods-rockBandClubApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rockBandClubApp/Pods-rockBandClubApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8A34AE89FBEB2A02476577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rockBandClubAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD6AF0CB895644939CD7DB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rockBandClubApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC24CF82BCA6263CA96E66E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rockBandClubApp-rockBandClubAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3928E08723DF81AC009ECE7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3928E09323DF81AC009ECE7B /* ViewController.swift in Sources */,
+				398CDA8523E8740700D56CA1 /* LoginViewController.swift in Sources */,
 				3928E08F23DF81AC009ECE7B /* AppDelegate.swift in Sources */,
 				3928E09123DF81AC009ECE7B /* SceneDelegate.swift in Sources */,
+				3936DFDE23F466010058E8CE /* AdminViewController.swift in Sources */,
+				39F892FE23EA013C00F01B2F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +644,13 @@
 		};
 		3928E0B623DF81AF009ECE7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE8809B701553407DAE436D /* Pods-rockBandClubApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 454D2M87C9;
 				INFOPLIST_FILE = rockBandClubApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +664,13 @@
 		};
 		3928E0B723DF81AF009ECE7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F4013A6968FA29D3B14365 /* Pods-rockBandClubApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 454D2M87C9;
 				INFOPLIST_FILE = rockBandClubApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +684,7 @@
 		};
 		3928E0B923DF81AF009ECE7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50100EC2D400791638EB1B5 /* Pods-rockBandClubAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +707,7 @@
 		};
 		3928E0BA23DF81AF009ECE7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845455E5A0805E8F25805583 /* Pods-rockBandClubAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +730,7 @@
 		};
 		3928E0BC23DF81AF009ECE7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57F43BDCB5866BB0014D32A /* Pods-rockBandClubApp-rockBandClubAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +751,7 @@
 		};
 		3928E0BD23DF81AF009ECE7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F836A9547E00FCDB55960A /* Pods-rockBandClubApp-rockBandClubAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
