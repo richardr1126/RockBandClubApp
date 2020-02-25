@@ -53,18 +53,36 @@ class LoginViewController: UIViewController {
 extension LoginViewController: FUIAuthDelegate {
     func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
         
+        let ref = Database.database().reference()
+        
         guard error == nil else {
             return
         }
         
         let user = authDataResult?.user
         
-        ref.child("users").child("\(user?.displayName ?? "no-name")").setValue([
-            "name": "\(user?.displayName ?? "no-name")",
-            "admin": false,
-            "uid": "\(user?.uid ?? "no-uid")",
-            "points": 200
-        ])
+        
+        ref.child("users").child((user?.displayName)!).observeSingleEvent(of: .value, with: { (snapshot) in
+            
+            
+            if let dictionary = snapshot.value as? [String: AnyObject] {
+                let isAdmin = dictionary["admin"] as! Bool
+                print(isAdmin)
+                let points = dictionary["points"] as! Int
+                print(points)
+                
+                ref.child("users").child("\(user?.displayName ?? "no-name")").setValue([
+                    "name": "\(user?.displayName ?? "no-name")",
+                    "admin": isAdmin,
+                    "uid": "\(user?.uid ?? "no-uid")",
+                    "points": points
+                ])
+            }
+        })
+        
+        
+        
+        homeView.setupHome()
         
         performSegue(withIdentifier: "goHome", sender: self)
         

@@ -16,6 +16,8 @@
 		3928E0B123DF81AF009ECE7B /* rockBandClubAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3928E0B023DF81AF009ECE7B /* rockBandClubAppUITests.swift */; };
 		3936DFDC23F44FCF0058E8CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3936DFDB23F44FCF0058E8CE /* GoogleService-Info.plist */; };
 		3936DFDE23F466010058E8CE /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936DFDD23F466010058E8CE /* AdminViewController.swift */; };
+		3936DFE0240061150058E8CE /* SongListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936DFDF240061150058E8CE /* SongListViewController.swift */; };
+		3936DFE2240061300058E8CE /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936DFE1240061300058E8CE /* Song.swift */; };
 		398CDA8523E8740700D56CA1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CDA8423E8740700D56CA1 /* LoginViewController.swift */; };
 		39F892FE23EA013C00F01B2F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F892FD23EA013C00F01B2F /* HomeViewController.swift */; };
 		8B49488AFB320410977BE1BF /* Pods_rockBandClubApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0014F76AB031CF478191EFB7 /* Pods_rockBandClubApp.framework */; };
@@ -58,6 +60,8 @@
 		3928E0B223DF81AF009ECE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3936DFDB23F44FCF0058E8CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3936DFDD23F466010058E8CE /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		3936DFDF240061150058E8CE /* SongListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewController.swift; sourceTree = "<group>"; };
+		3936DFE1240061300058E8CE /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		398CDA8423E8740700D56CA1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		39F892FD23EA013C00F01B2F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5F993DA1E8A2E627CC379437 /* Pods_rockBandClubApp_rockBandClubAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rockBandClubApp_rockBandClubAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +160,7 @@
 		399B62D723EC6E3600789EB1 /* Extras */ = {
 			isa = PBXGroup;
 			children = (
+				3936DFE1240061300058E8CE /* Song.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				39F892FD23EA013C00F01B2F /* HomeViewController.swift */,
 				398CDA8423E8740700D56CA1 /* LoginViewController.swift */,
 				3936DFDD23F466010058E8CE /* AdminViewController.swift */,
+				3936DFDF240061150058E8CE /* SongListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -471,9 +477,11 @@
 			files = (
 				398CDA8523E8740700D56CA1 /* LoginViewController.swift in Sources */,
 				3928E08F23DF81AC009ECE7B /* AppDelegate.swift in Sources */,
+				3936DFE2240061300058E8CE /* Song.swift in Sources */,
 				3928E09123DF81AC009ECE7B /* SceneDelegate.swift in Sources */,
 				3936DFDE23F466010058E8CE /* AdminViewController.swift in Sources */,
 				39F892FE23EA013C00F01B2F /* HomeViewController.swift in Sources */,
+				3936DFE0240061150058E8CE /* SongListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

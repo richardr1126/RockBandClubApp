@@ -24,18 +24,20 @@ class AdminViewController: UITableViewController {
     }
 
     @IBAction func changeCodePressed(_ sender: Any) {
-        if codeField.text != nil {
+        if codeField.text != "" {
             let code = Int(codeField.text!)
-            ref.child("properties").child("attendanceCode").setValue(code)
+            ref.child("properties").child("admin").child("attendanceCode").setValue(code)
         }
     }
     
     
     @IBAction func changeDayPressed(_ sender: Any) {
-        if dayField.text != nil {
+        if dayField.text != "" {
             let day = dayField.text!
-            ref.child("properties").child("meetDay").setValue(day)
+            ref.child("properties").child("admin").child("meetDay").setValue(day)
         }
+        homeView.setupHome()
+        
     }
     
     
